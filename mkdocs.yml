@@ -1,0 +1,16 @@
+site_name: Eating Python for Breakfast 🐍🍽️
+theme:
+  name: material
+  palette:
+    scheme: slate # Sleek dark mode by default
+    #primary: amber # A nice breakfast-y warm color!
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Daily Breakdown:
+    - Day 1 Introduction: days/day01.md
+    - Day 2 Variables & Built-ins: days/day02.md
